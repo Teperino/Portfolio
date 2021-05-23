@@ -1,5 +1,5 @@
 # Portfolio
-Una coleccion de mis proyectos// A collection of my projects
+Una coleccion de mis proyectos // A collection of my projects
 
 Hola Mundo
 
