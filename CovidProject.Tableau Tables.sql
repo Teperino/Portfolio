@@ -1,5 +1,5 @@
 /*
-Queries used for Tableau Project
+Queries used for Tableau Project // Consultas utilizadas para Tableau Project
 */
 
 
@@ -14,8 +14,8 @@ order by 1,2
 
 -- 2. 
 
--- We take these out as they are not inluded in the above queries and want to stay consistent
--- European Union is part of Europe
+-- We take these out as they are not inluded in the above queries and want to stay consistent // Los eliminamos porque no están incluidos en las consultas anteriores y queremos mantener la coherencia.
+-- European Union is part of Europe  // La Union Europea es parte de Europa
 
 Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
 From CovidProject..CovidDeaths
